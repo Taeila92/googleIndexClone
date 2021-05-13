@@ -1,0 +1,174 @@
+body {
+  font-family: arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+
+}
+header nav {
+  width: 100%;
+  height: 60px;
+  padding: 6px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav ul li {
+  margin-right: 10px;
+}
+header nav ul li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000DE;
+}
+header nav ul li .id-img {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+section{
+
+}
+section .logo{
+  position: relative;
+  width: 100%;
+  height: 27vh;
+}
+section .logo .logo__img{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: calc(272px / -2)
+}
+section .logo .logo__img img{
+  width: 272px;
+  height: 92px;
+}
+
+.search {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.search .search__box {
+  box-sizing: border-box;
+  margin: 0 10px;
+  width: 584px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  display: flex;
+}
+.search .search__box .box__search-icon{
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .search__box .box__search-icon .material-icons{
+  color: #9aa0a6;
+  margin-left: 10px;
+}
+.search .search__box input {
+  height: 40px;
+  width: 80%;
+  border: none;
+}
+.search .search__box input:focus {
+  outline: none;
+}
+.search .search__box .box__icons {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .search__box .box__icons .keyboard{
+  margin-right: 20px;
+  color: #9aa0a6;
+}
+.search .search__box .box__icons .mic{
+  color: #9aa0a6;
+}
+
+.search .search__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 18px;
+  height: 88px;
+}
+.search .search__button button{
+  border: none;
+  padding: 0 20px;
+  height: 36px;
+  background-color: #f8f9fa;
+  color: #3c4043;
+}
+.search .search__button button:first-child{
+  margin-right: 10px;
+}
+
+.service {
+  width: 100%;
+  height: 27vh;
+}
+.service p {
+  text-align: center;
+  color: #222;
+  font-size: small;
+}
+.service a {
+  text-decoration: underline;
+}
+
+footer{
+  background-color: #f8f9fa;
+  color: #0000008a;
+}
+footer .country {
+  width: 100%;
+  padding: 15px 30px;
+  height: 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dadce0;
+}
+footer .country p {
+  font-size: 15px;
+}
+footer .copyright {
+  display: flex;
+  align-items: center;
+}
+footer .copyright ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+footer .copyright ul li{
+  padding: 15px;
+}
+footer .copyright ul li a{
+  font-size: 14px;
+  color: #70757a;
+}
+footer .copyright .copyright1 {
+}
+footer .copyright .copyright2 {
+
+}
